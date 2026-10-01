@@ -1,0 +1,63 @@
+body {
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 15px auto 0 auto;
+}
+
+#nav-links {
+    display: flex;
+    gap: 65px;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 75px auto 50px auto;
+}
+
+#header-content {
+    width: 630px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 0;
+}
+
+#button-cv {
+    text-decoration: none;
+    color: white;
+    background-color: #FF6464;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+#subtitle {
+    font-size: 16px;
+    margin: 35px 0;
+}
+
+#blog {
+    background-color: #EDF7FA;
+}
+
+#blog-content {
+    width: 1200px;
+    margin: auto;
+}
