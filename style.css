@@ -1,7 +1,12 @@
+/*** GENERAL ***/
+
 body {
     font-family: "Heebo", sans-serif;
     margin: 0;
+    color: #21243D;
 }
+
+/*** NAVIGATION ***/
 
 nav {
     display: flex;
@@ -22,6 +27,8 @@ nav {
     font-weight: 700;
     font-size: 20px;
 }
+
+/*** HEADER ***/
 
 header {
     display: flex;
@@ -53,11 +60,193 @@ h1 {
     margin: 35px 0;
 }
 
+/*** BLOG ***/
+
 #blog {
     background-color: #EDF7FA;
+    padding-bottom: 35px;
 }
 
 #blog-content {
     width: 1200px;
     margin: auto;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-blog {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 543px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.article-title {
+    font-size: 26px;
+}
+
+.date-category {
+    font-size: 18px;
+    display: flex;
+    gap: 25px;
+}
+
+.article-description {
+    font-size: 16px;
+}
+
+/*** PORTFOLIO ***/
+
+#projets {
+    width: 1200px;
+    margin: auto;
+}
+
+.date-type {
+    display: flex;
+    gap: 25px;
+
+}
+
+.projet {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.projet-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+#projets-content {
+    width: 1200px;
+    margin: auto;
+}
+
+#projet1-content {
+    display:list-item;
+}
+
+.projet-description {
+    font-size: 16px;
+}
+
+.projet-type {
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.projet-date {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #142850;
+    font-weight: 900;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+}
+
+/*** CONTACT ***/
+
+#contact {
+    width: 1200px;
+    margin: auto;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#contact-intro {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#email {
+    font-size: 16px;
+}
+
+.social-links {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#socials {
+    font-family: Noe Display;
+    font-size: 32px;
+}
+
+#email-title {
+    font-weight: 700;
+}
+
+#contact-content {
+    display: flex;
+    gap: 40px;
+}
+
+#coordonnees {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    height: 56px;
+    color: white;
+    background-color: #000000;
+}
+input, select, textarea {
+    background-color: #F7F7F7;
+    height: 46px;
+    border: none;
+
+}
+
+textarea#message {
+    height: 165px;
+}
+
+/*** FOOTER ***/
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#icons-socials {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+#copyright {
+    font-size: 14px;
+    color: #21243D;
 }
