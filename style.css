@@ -31,6 +31,10 @@ nav {
     font-size: 20px;
 }
 
+#menu-button {
+    display: none;
+}
+
 /*** HEADER ***/
 
 header {
@@ -191,7 +195,7 @@ h2 {
     font-weight: 400;
 }
 
-#email {
+#contact-email {
     font-size: 16px;
 }
 
@@ -267,6 +271,27 @@ footer {
 }
 
 @media (max-width: 700px) {
+
+    .nav-link {
+        display: none;
+    }
+    
+    #menu-button {
+        display: block;
+    }
+
+    header {
+    text-align: center;
+    flex-direction: column-reverse;
+}
+
+    #header-content {
+        width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
 
     #articles {
         flex-direction: column;
